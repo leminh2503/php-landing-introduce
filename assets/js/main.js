@@ -3,7 +3,7 @@
 
   var $window = $(window);
   /*----------------------------------
-# header sticky 
+# header sticky
 -----------------------------------*/
   $.fn.elExists = function () {
     return this.length > 0;
@@ -64,7 +64,35 @@
     });
   }
 
-
+  if ($(".wordCarousel").elExists()) {
+    const wordCarousel = new Swiper(".wordCarousel .swiper", {
+      pagination: false,
+      spaceBetween: 24,
+      loop: true,
+      speed: 2000,
+      direction: 'vertical',
+      autoplay: {
+        delay: 2000,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1
+        },
+        480: {
+          slidesPerView: 1
+        },
+        768: {
+          slidesPerView: 1,
+        },
+        992: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 1
+        },
+      },
+    });
+  }
 
 
 
@@ -210,7 +238,7 @@
 
 
 
-  // Ajax Contact Form 
+  // Ajax Contact Form
 
   const form = $('#contact-form');
 

@@ -884,6 +884,10 @@ video {
   height: 90%;
 }
 
+.h-\[140px\] {
+  height: 140px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1239,6 +1243,10 @@ video {
 
 .fill-primary {
   fill: #FFB646;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .stroke-black-800 {
@@ -1827,6 +1835,9 @@ body.offcanvas-open {
 
 .featured-properties {
   background-color: rgba(8, 8, 8, 0.04);
+}
+
+.wordCarousel {
 }
 
 a {
