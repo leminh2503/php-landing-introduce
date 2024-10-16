@@ -1224,12 +1224,12 @@ video {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 182 70/var(--tw-bg-opacity));
+  background-color:#4078F6;
 }
 
 .bg-secondary {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 233 217/var(--tw-bg-opacity));
+  background-color: #E1EBFF;
 }
 
 .bg-white {
@@ -1608,7 +1608,7 @@ video {
 
 .text-orange {
   --tw-text-opacity: 1;
-  color: rgb(255 147 48/var(--tw-text-opacity));
+  color: #1D41D8;
 }
 
 .text-primary {
@@ -2092,7 +2092,7 @@ a {
 .before\:bg-primary::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(255 182 70/var(--tw-bg-opacity));
+  background-color: #4078F6;
 }
 
 .before\:bg-white::before {
@@ -2139,7 +2139,7 @@ a {
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 182 70/var(--tw-bg-opacity));
+  background-color:#4078F6;
 }
 
 .hover\:bg-white:hover {
@@ -2149,7 +2149,7 @@ a {
 
 .hover\:text-orange:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 147 48/var(--tw-text-opacity));
+  color: #1D41D8;
 }
 
 .hover\:text-primary:hover {
@@ -2171,7 +2171,7 @@ a {
 .hover\:before\:bg-primary:hover::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(255 182 70/var(--tw-bg-opacity));
+  background-color:#4078F6;
 }
 
 .hover\:before\:opacity-80:hover::before {
@@ -2233,7 +2233,7 @@ a {
 
 .group:hover .group-hover\:text-orange {
   --tw-text-opacity: 1;
-  color: rgb(255 147 48/var(--tw-text-opacity));
+  color: #1D41D8;
 }
 
 @keyframes moveUp {
@@ -2407,6 +2407,9 @@ a {
   .lg\:right-\[150px\] {
     right: 150px;
   }
+  .lg\:col-span-3{
+    grid-column: span 3/span 3;
+  }
   .lg\:col-span-4 {
     grid-column: span 4/span 4;
   }
@@ -2446,6 +2449,9 @@ a {
   }
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
   .lg\:flex-col {
     flex-direction: column;
@@ -2559,6 +2565,9 @@ a {
   }
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .xl\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
   .xl\:flex-row {
     flex-direction: row;

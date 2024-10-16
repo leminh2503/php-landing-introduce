@@ -82,16 +82,45 @@
           slidesPerView: 1
         },
         480: {
-          slidesPerView: 2
+          slidesPerView: 1
         },
         768: {
-          slidesPerView: 3,
+          slidesPerView: 1,
         },
         992: {
-          slidesPerView: 4,
+          slidesPerView: 1,
         },
         1024: {
-          slidesPerView: 6
+          slidesPerView: 1
+        },
+      },
+    });
+  }
+
+  if ($(".certificateCarousel").elExists()) {
+    const certificateCarousel = new Swiper(".certificateCarousel .swiper", {
+      pagination: false,
+      spaceBetween: 24,
+      loop: true,
+      speed: 2000,
+      autoplay: {
+        delay: 2000,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1
+        },
+        480: {
+          slidesPerView: 1
+        },
+        768: {
+          slidesPerView: 1,
+        },
+        992: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 1
         },
       },
     });
