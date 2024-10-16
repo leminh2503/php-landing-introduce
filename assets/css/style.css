@@ -2349,6 +2349,9 @@ a {
   .md\:max-w-\[420px\] {
     max-width: 420px;
   }
+  .md\:max-w-\[350px\] {
+    max-width: 350px;
+  }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2443,6 +2446,9 @@ a {
   }
   .lg\:max-w-\[570px\] {
     max-width: 570px;
+  }
+  .lg\:max-w-\[500px\] {
+    max-width: 500px;
   }
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2695,6 +2701,9 @@ a {
   }
   .\32 xl\:max-w-\[initial\] {
     max-width: initial;
+  }
+  .\32 xl\:max-w-\[730px\] {
+    max-width: 730px;
   }
   .\32 xl\:gap-0 {
     gap: 0px;
