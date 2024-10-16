@@ -2270,6 +2270,9 @@ a {
 }
 
 @media (min-width: 576px) {
+  .sm\:block {
+    display: block;
+  }
   .sm\:order-first {
     order: -9999;
   }
@@ -2330,6 +2333,9 @@ a {
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+  .sm\:hidden {
+    display: none;
   }
 }
 @media (min-width: 768px) {
