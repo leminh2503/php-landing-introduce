@@ -2097,7 +2097,7 @@ a {
 .before\:bg-orange::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(255 147 48/var(--tw-bg-opacity));
+  background-color: #4078F6;
 }
 
 .before\:bg-primary::before {
